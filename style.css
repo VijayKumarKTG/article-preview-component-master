@@ -165,14 +165,14 @@ body {
 @media screen and (min-width: 1280px) {
   body {
     height: 100vh;
-    margin-top: 15%;
+    margin-top: 17%;
   }
 
   .container {
     width: 60%;
     height: 300px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
   }
 
   .image-container {
@@ -186,17 +186,21 @@ body {
   }
 
   .desc-head {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .desc,
   .name,
   .date {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .footer-container {
     height: 80px;
+  }
+
+  .share {
+    padding: 13px;
   }
 
   .social {
@@ -204,8 +208,8 @@ body {
     padding: 10px 0px 0px 50px !important;
     width: 200px;
     height: 70px;
-    top: -115px;
-    left: 65%;
+    top: -130px;
+    left: 68%;
   }
 
   .social-desc {
